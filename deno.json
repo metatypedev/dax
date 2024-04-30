@@ -1,6 +1,6 @@
 {
-  "name": "@david/dax",
-  "version": "0.0.0",
+  "name": "@ghjk/dax",
+  "version": "0.40.2-alpha-ghjk",
   "nodeModulesDir": false,
   "tasks": {
     "test": "deno test -A",
@@ -12,7 +12,11 @@
   },
   "lint": {
     "rules": {
-      "exclude": ["ban-types", "no-explicit-any", "no-this-alias"],
+      "exclude": [
+        "ban-types",
+        "no-explicit-any",
+        "no-this-alias"
+      ],
       "include": [
         "no-console",
         "no-sync-fn-in-async-fn"
